@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html ng-app="fsApp">
+  <head>
+    <meta charset="utf-8">
+    <title>fsApp1.1</title>
+    <!-- Angular -->
+    <script src = "angular.min.js"></script>
+    <!-- Module -->
+    <script src = "fsApp.js"></script>
+    <!-- Services -->
+    <script src = "app_components/browseService.js"></script>
+    <script src = "app_components/angular-route.min.js"></script>
+      <script>
+
+    app.component("hiComponent", {
+      template : ` 
+       <h1>Search By Ingredient Name</h1><br>
+      <form>
+        <input type="text" name="userSearch" placeholder="Ingredient" ng-model="$ctrl.ing.name">
+        <input type="submit" value="Search" ng-click="$ctrl.showIngredientByName()">
+      </form>
+      
+      <h5><span ng-repeat="i in $ctrl.rIngs">{{i.name}} + </span></h5>
+      
+      <h4>Flavor Pairings for {{$ctrl.ingredient.name}} <button ng-click="$ctrl.addToRecipe($ctrl.ingredient.id)">Add to Recipe</button></h4>
+      <ol>
+      	<li ng-repeat="cc in $ctrl.ccs | orderBy: '-count'">{{cc.ingredient1.name}}: {{cc.count}} <button ng-click="$ctrl.addToRecipe(cc.ingredient1.id)">Add to Recipe</button></li>
+      </ol>
+      
+      <h4>Flavor Pairings for <span ng-repeat="i in $ctrl.rIngs">{{i.name}} + </span>
+      <ol>
+      	<li ng-repeat="cc in $ctrl.allCCs | orderBy: '-count'">{{cc.ingredient1.name}}: {{cc.count}} <button ng-click="$ctrl.addToRecipe(cc.ingredient1.id)">Add to Recipe</button></li>
+      </ol>
+      
+      `,
+      controller : function(browseService){
+        var vm = this;
+        
+        vm.ingredient;
+        vm.ccs = [];
+        vm.rIngs = [];
+        vm.allCCs = [];
+        
+        vm.showIngredientByName = function(){
+          browseService.showIngredientByName(vm.ing.name)
+          .then(function(response){
+              vm.ingredient = response.data;
+              console.log(response.data);
+              vm.indexCCs();
+            });
+        }
+        
+        vm.indexCCs = function(){
+        	browseService.indexCCs(vm.ingredient.id)
+            .then(function(response){
+                vm.ccs = response.data;
+                console.log(response.data);
+              });
+        }
+        
+        vm.addToRecipe = function(id){
+          browseService.showIngredient(id)
+          .then(function(response){
+        	  console.log('byId');
+        	  console.log(response.data);
+              vm.rIngs.push(response.data);
+            });
+          
+          if(allCCs.length === 0){
+        	  browseService.indexCCs(id)
+              .then(function(response){
+                  vm.allCCs = response.data;
+                });
+          } else {
+          vm.indexRecipeCCs();
+          }
+          
+        }
+
+        vm.indexRecipeCCs = function(){
+        	
+        	vm.rIngs.forEach(function(i){
+        		console.log('i-first: ');
+        		console.log(i);
+        		browseService.indexCCs(i.id)
+                .then(function(response){
+                    var indiCCs = response.data;
+                    indiCCs.forEach(function (p){
+		        		console.log('p-second: ');
+		        		console.log(p.ingredient1);
+                    	allCCs.forEach(function (o){
+                    		if(p.ingredient1.name.valueOf() == o.ingredient1.name.valueOf()){
+                    			o.count += p.count;
+                    			console.log('addOn');
+                    		} else {
+                    			allCCs.push(p.ingredient1);
+                    		}
+                    	})
+                    })
+                  });
+        	});
+        	console.log('after irccs');
+        	console.log(allCCs);
+        	
+        }
+
+      },
+      bindings : {
+    	  ing : '<'
+      }
+    });
+
+    </script>
+  </head>
+  <body>
+    <hi-component></hi-component>
+  </body>
+</html>

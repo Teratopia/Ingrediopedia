@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html ng-app="fsApp">
+  <head>
+    <meta charset="utf-8">
+    <title>fsApp1.1</title>
+    <!-- Angular -->
+    <script src = "angular.min.js"></script>
+    <!-- Module -->
+    <script src = "fsApp.js"></script>
+    <!-- Services -->
+    <script src = "app_components/browseService.js"></script>
+    <script src = "app_components/angular-route.min.js"></script>
+      <script>
+
+    app.component("hiComponent", {
+      template : ` 
+       <h1>Search By Ingredient Name</h1><br>
+      <form>
+        <input type="text" name="userSearch" placeholder="Ingredient" ng-model="$ctrl.ing.name">
+        <input type="submit" value="Search" ng-click="$ctrl.showIngredientByName()">
+      </form>
+      
+      <h5><span ng-repeat="i in $ctrl.rIngs">{{i.name}} + </span></h5>
+      
+      <h4>Flavor Pairings for {{$ctrl.ingredient.name}} <button ng-click="$ctrl.addToRecipe($ctrl.ingredient.id)">Add to Recipe</button></h4>
+      <ol>
+      	<li ng-repeat="cc in $ctrl.ccs | orderBy: '-count'">{{cc.ingredient1.name}}: {{cc.count}} <button ng-click="$ctrl.addToRecipe(cc.ingredient1.id)">Add to Recipe</button></li>
+      </ol>
+      
+      <h4>Flavor Pairings for <span ng-repeat="i in $ctrl.rIngs">{{i.name}} + </span>
+      <ol>
+      	<li ng-repeat="cc in $ctrl.allCCs | orderBy: '-count'">{{cc.ingredient1.name}}: {{cc.count}} <button ng-click="$ctrl.addToRecipe(cc.ingredient1.id)">Add to Recipe</button></li>
+      </ol>
+      
+      `,
+      controller : function(browseService){
+        var vm = this;
+        
+        vm.ingredient;
+        vm.ccs = [];
+        vm.rIngs = [];
+        vm.allCCs = [];
+        
+        vm.showIngredientByName = function(){
+          browseService.showIngredientByName(vm.ing.name)
+          .then(function(response){
+              vm.ingredient = response.data;
+              console.log(response.data);
+              vm.indexCCs();
+            });
+        }
+        
+        vm.indexCCs = function(){
+        	browseService.indexCCs(vm.ingredient.id)
+            .then(function(response){
+                vm.ccs = response.data;
+                console.log(response.data);
+              });
+        }
+        
+        vm.addToRecipe = function(id){
+          browseService.showIngredient(id)
+          .then(function(response){
+        	  console.log('byId');
+        	  console.log(response.data);
+              vm.rIngs.push(response.data);
+            });
+          
+          if(vm.allCCs.length === 0){
+        	  browseService.indexCCs(id)
+              .then(function(response){
+                  vm.allCCs = response.data;
+                });
+          } else {
+          vm.indexRecipeCCs();
+          }
+          
+        }
+
+        vm.indexRecipeCCs = function(){
+        	
+        	vm.rIngs.forEach(function(i){
+        		console.log('i-first: ');
+        		console.log(i);
+        		//get individual ccs for each ingredient in recipe
+        		browseService.indexCCs(i.id)
+                .then(function(response){
+                	
+                	//save ingredient ccs in indiCCs
+                    var indiCCs = response.data;
+                	
+                	//forEach CC in ingredient...
+                    indiCCs.forEach(function (p){
+		        		console.log(p.ingredient1.name);
+		        		
+		        		//check each CC in allCCs
+                    	vm.allCCs.forEach(function (o){
+                    		
+                    		//if ingredient's CC's ingredient's id === allCCs CC's ingredient's id
+                    		if(p.ingredient1.id === o.ingredient1.id){
+                    			
+                    			//allCC's CC's count += ingredient's CC's count
+                    			o.count += p.count;
+                    			console.log('addOn');
+                    			console.log(o);
+                    			console.log(p);
+                    			console.log('/addOn');
+                    			
+                    		//otherwise add ingredient CC to allCCs
+                    		} else {
+                    			vm.allCCs.push(p);
+                    		}
+                    	})
+                    })
+                  });
+        		console.log('/i-first: ');
+        	});
+        	console.log('after irccs');
+        	console.log(vm.allCCs);
+        	
+        }
+
+      },
+      bindings : {
+    	  ing : '<'
+      }
+    });
+
+    </script>
+  </head>
+  <body>
+    <hi-component></hi-component>
+  </body>
+</html>

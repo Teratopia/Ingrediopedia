@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html ng-app="fsApp">
+  <head>
+    <meta charset="utf-8">
+    <title>fsApp1.1</title>
+    <!-- Angular -->
+    <script src = "angular.min.js"></script>
+    <!-- Module -->
+    <script src = "fsApp.js"></script>
+    <!-- Services -->
+    <script src = "app_components/browseService.js"></script>
+    <script src = "app_components/angular-route.min.js"></script>
+      <script>
+
+    app.component("hiComponent", {
+      template : ` 
+       <h5>Search By Ingredient Name</h5><br>
+      <form>
+        <input type="text" name="userSearch" placeholder="Ingredient" ng-model="$ctrl.ing.name">
+        <input type="submit" value="Search" ng-click="$ctrl.showIngredientByName($ctrl.ing.name)">
+      </form>
+      
+      <h5><span ng-repeat="i in $ctrl.rIngs">{{i.name}} + </span></h5>
+      
+      <h4>Flavor Pairings for {{$ctrl.ingredient.name}} <button ng-click="$ctrl.addToRecipe($ctrl.ingredient.id)">Add to Recipe</button></h4>
+      <ol>
+      	<li ng-repeat="cc in $ctrl.ccs | orderBy: '-count'">{{cc.ingredient1.name}}: {{cc.count}} 
+      	<button ng-click="$ctrl.addToRecipe(cc.ingredient1.id)">Add to Recipe</button>
+      	<button ng-click="$ctrl.showIngredientById(cc.ingredient1.id)">View Ingredient</button></li>
+      </ol>
+      
+      <h4>Flavor Pairings for <span ng-repeat="i in $ctrl.rIngs"><button ng-click="$ctrl.showIngredientById(i.id)">{{i.name}}</button> + </span></h4>
+      <ol>
+      	<li ng-repeat="cc in $ctrl.quads | orderBy: '-count'">4X {{cc.ingredient1.name}}: {{cc.count}} 
+		<button ng-click="$ctrl.addToRecipe(cc.ingredient1.id); $ctrl.showIngredientById(cc.ingredient1.id)">Add to Recipe</button>
+      	<button ng-click="$ctrl.showIngredientById(cc.ingredient1.id)">View Ingredient</button>
+      	</li>
+ 
+      	<li ng-repeat="cc in $ctrl.triples | orderBy: '-count'">3X {{cc.ingredient1.name}}: {{cc.count}} 
+		<button ng-click="$ctrl.addToRecipe(cc.ingredient1.id); $ctrl.showIngredientById(cc.ingredient1.id)">Add to Recipe</button>
+      	<button ng-click="$ctrl.showIngredientById(cc.ingredient1.id)">View Ingredient</button>
+      	</li>
+
+      	<li ng-repeat="cc in $ctrl.doubles | orderBy: '-count'">2X {{cc.ingredient1.name}}: {{cc.count}} 
+		<button ng-click="$ctrl.addToRecipe(cc.ingredient1.id); $ctrl.showIngredientById(cc.ingredient1.id)">Add to Recipe</button>
+      	<button ng-click="$ctrl.showIngredientById(cc.ingredient1.id)">View Ingredient</button>
+      	</li>
+
+      	<li ng-repeat="cc in $ctrl.singles | orderBy: '-count'">1X {{cc.ingredient1.name}}: {{cc.count}} 
+		<button ng-click="$ctrl.addToRecipe(cc.ingredient1.id); $ctrl.showIngredientById(cc.ingredient1.id)">Add to Recipe</button>
+      	<button ng-click="$ctrl.showIngredientById(cc.ingredient1.id)">View Ingredient</button>
+      	</li>
+      </ol>
+      
+      `,
+      controller : function(browseService){
+        var vm = this;
+        
+        vm.ingredient;
+        vm.ccs = [];
+        vm.rIngs = [];
+        vm.allCCs = [];
+        vm.singles = [];
+        vm.doubles = [];
+        vm.triples = [];
+        vm.quads = [];
+        
+        vm.showIngredientByName = function(name){
+          browseService.showIngredientByName(name)
+          .then(function(response){
+              vm.ingredient = response.data;
+              console.log(response.data);
+              vm.indexCCs(vm.ingredient.id);
+            });
+        }
+        
+        vm.showIngredientById = function(id){
+          browseService.showIngredient(id)
+          .then(function(response){
+              vm.ingredient = response.data;
+              console.log(response.data);
+              vm.indexCCs(id);
+            });
+        }
+        
+        vm.indexCCs = function(ccId){
+        	browseService.indexCCs(ccId)
+            .then(function(response){
+                vm.ccs = response.data;
+                console.log(response.data);
+              });
+        }
+        
+        vm.addToRecipe = function(id){
+          browseService.showIngredient(id)
+          .then(function(response){
+        	  console.log('byId');
+        	  console.log(response.data);
+              vm.rIngs.push(response.data);
+          		vm.indexRecipeCCs();
+            });
+        }
+        
+        vm.indexRecipeCCs = function(){
+        	
+        	vm.allCCs = [];
+        	 vm.singles = [];
+             vm.doubles = [];
+             vm.triples = [];
+             vm.quads = [];
+        	
+          	  console.log('in indexRecipeCCs1');
+          	  console.log(vm.rIngs);
+        	browseService.indexRecipeCCs(vm.rIngs)
+            .then(function(response){
+            	
+          	  console.log('in indexRecipeCCs2');
+          	  console.log(response.data);
+                var data = response.data;
+                
+                data.forEach(function(cc){
+                	var thisCCcount = 0;
+                	var index = 0;
+                	
+                	
+                	data.forEach(function(cc2){
+                		/* if(cc.ingredient1 === null || cc.id === cc2.id){
+                			data.splice(index-1, 1);
+                		}  */
+                		index ++;
+                		
+                		if(cc.ingredient1 !== null && cc2.ingredient1 !== null
+                				&& cc.ingredient1.name === cc2.ingredient1.name){
+                			thisCCcount++;
+                			cc.count += cc2.count;
+                			data.splice(index-1, 1);
+                		}
+                		
+                		/* if(cc.name === cc2.name && cc.count === cc2.count){
+                			data.splice(index-1, 1);
+                		} */
+                	})
+                	
+                		vm.allCCs.push(cc);
+                	if(thisCCcount === 1){
+                		/* var idx = 0;
+                		vm.singles.forEach(function(cc2){
+                			if(cc.id === cc2.id || cc.ingredient1 !== null && cc2.ingredient1 !== null
+                    				&& cc.ingredient1.name === cc2.ingredient1.name){
+                				cc.count += cc2.count;
+                				vm.singles.splice(idx-1, 1);
+                			}
+                		}) */
+                		vm.singles.push(cc);
+                	} else if(thisCCcount === 2){
+                		vm.doubles.push(cc);
+                	} else if (thisCCcount === 3) {
+                		/* var idx = 0;
+                		vm.triples.forEach(function(cc2){
+                			if(cc.id === cc2.id || cc.ingredient1 !== null && cc2.ingredient1 !== null
+                    				&& cc.ingredient1.name === cc2.ingredient1.name){
+                				cc.count += cc2.count;
+                				vm.triples.splice(idx-1, 1);
+                			}
+                		}) */
+                		vm.triples.push(cc);
+                	} else if (thisCCcount === 4) {
+                		/* var idx = 0;
+                		vm.quads.forEach(function(cc2){
+                			if(cc.id === cc2.id || cc.ingredient1 !== null && cc2.ingredient1 !== null
+                    				&& cc.ingredient1.name === cc2.ingredient1.name){
+                				cc.count += cc2.count;
+                				vm.quads.splice(idx-1, 1);
+                			}
+                		}) */
+                		vm.quads.push(cc);
+                	} 
+                	
+                });
+                console.log('in index recipes 3');
+                console.log('X4:');
+                console.log(vm.quads);
+                console.log('X3:');
+                console.log(vm.triples);
+                console.log('X2:');
+                console.log(vm.doubles);
+                console.log('X1:');
+                console.log(vm.singles);
+                
+            });
+        	
+        }
+
+        vm.indexRecipeCCsDepr = function(){
+        	
+        	vm.rIngs.forEach(function(i){
+        		console.log('i-first: ');
+        		console.log(i);
+        		//get individual ccs for each ingredient in recipe
+        		browseService.indexCCs(i.id)
+                .then(function(response){
+                	
+                	//save ingredient ccs in indiCCs
+                    var indiCCs = response.data;
+                	
+                	//forEach CC in ingredient...
+                    indiCCs.forEach(function (p){
+		        		console.log(p.ingredient1.name);
+		        		
+		        		//check each CC in allCCs
+                    	vm.allCCs.forEach(function (o){
+                    		
+                    		//if ingredient's CC's ingredient's id === allCCs CC's ingredient's id
+                    		if(p.ingredient1.id === o.ingredient1.id){
+                    			
+                    			//allCC's CC's count += ingredient's CC's count
+                    			o.count += p.count;
+                    			console.log('addOn');
+                    			console.log(o);
+                    			console.log(p);
+                    			console.log('/addOn');
+                    			
+                    		//otherwise add ingredient CC to allCCs
+                    		} else {
+                    			vm.allCCs.push(p);
+                    		}
+                    	})
+                    })
+                  });
+        		console.log('/i-first: ');
+        	});
+        	console.log('after irccs');
+        	console.log(vm.allCCs);
+        	
+        }
+
+      },
+      bindings : {
+    	  ing : '<'
+      }
+    });
+
+    </script>
+  </head>
+  <body>
+    <hi-component></hi-component>
+  </body>
+</html>
+
+<!--     <li ng-repeat="cc in $ctrl.allCCs | orderBy: '-count'">{{cc.ingredient1.name}}: {{cc.count}}
+ -->

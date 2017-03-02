@@ -1,0 +1,300 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data itemCount="640" program="MaintainSQL" programVersion="2.4"><nutrientNode/><recipe createDate="03/24/1999" description="Drink, cranberry &amp; orange, cocktail" modifyDate="03/28/2003" nutrientRefNum="194390760" primaryKey="194390760" recordType="insert" useStaticIngrStmt="false" userCode="" version="2.2.0"><labelOption buildInsigFootnote="true" calcDVRaw="true" hide449Footnote="false" hideGramWeight="false" hideInsigFootnote="false" hideServings="false" labelDVStandard="1" labelElementType="0" labelFootnoteOrientation="1.000000" labelStyleFormat="0" rrUSCalories="0" rrUSCaloriesFat="0" rrUSCarbs="0" rrUSCholesterol="0" rrUSProtein="0" rrUSSugars="0" rrUSVitMin="0" showStandardFootnote="true" useAbbrev="false"><languageOption languageEnum="1" servingSizeText="" servingsContainerText=""/></labelOption><labelPageLayout labelPageObjectHeight="0" labelPageObjectLeft="0.500000" labelPageObjectTop="0.500000" labelPageObjectType="2" labelPageObjectWidth="1.870000"/><labelPageLayout labelPageObjectHeight="0" labelPageObjectLeft="4.000000" labelPageObjectTop="2.000000" labelPageObjectType="3" labelPageObjectWidth="0.860000"/><labelPageLayout labelPageObjectHeight="0" labelPageObjectLeft="4.000000" labelPageObjectTop="2.000000" labelPageObjectType="4" labelPageObjectWidth="0.780000"/><GroupData><Group groupName="AFRS__"/></GroupData><Yield cookedYield="100" percentRefuse="0" yieldKey="1"><measure gramWeight="-1.000000" measureKey="31" quantity="100.000000"/></Yield><RecipeItem ItemName="Cranberry Juice Cocktail-Bottled" itemDataType="1" itemDisplayOrder="0" itemEshaCode="3042" itemKey="3042" itemMeasureKey="15" itemQuantity="6.670000" itemQuantityText="" itemYieldKey="1"/><RecipeItem ItemName="Orange Juice-Unsweet-Fzn Conc-6 FlOz Can" itemDataType="1" itemDisplayOrder="1" itemEshaCode="3094" itemKey="3094" itemMeasureKey="15" itemQuantity="1.670000" itemQuantityText="" itemYieldKey="1"/><RecipeItem ItemName="Water" itemDataType="1" itemDisplayOrder="2" itemEshaCode="20041" itemKey="20041" itemMeasureKey="15" itemQuantity="4.750000" itemQuantityText="" itemYieldKey="1"/><memo><![CDATA[YIELD:  100 Portions (3-1/8 Gallons)
+EACH PORTION:  4 Ounces
+
+METHOD:
+
+STEP 1:
+Combine juices and water;  stir until blended.  Cover and refrigerate.
+
+NOTE:
+In Step 1: 5 No. 3 cyl. cn canned orange juice may be used for frozen orange juice.  Omit water.
+
+VARIATION:
+CRANBERRY AND APPLE JUICE COCKTAIL:  In Step 1, omit frozen orange juice.  Use 1-2/3 qt (1-2/3 32 oz cn) frozen apple juice concentrate (3 plus 1).  NOTE:  5 No. 3 cyl cn canned apple juice may be used for frozen apple juice.  Omit water.]]></memo></recipe><recipe createDate="03/24/1999" description="Dish, egg roll, w/meat, Chinese" modifyDate="04/22/2008" nutrientRefNum="868683136" primaryKey="868683136" recordType="insert" useStaticIngrStmt="false" userCode="" version="2.2.0"><labelOption buildInsigFootnote="true" calcDVRaw="true" hide449Footnote="false" hideGramWeight="false" hideInsigFootnote="false" hideServings="false" labelDVStandard="1" labelElementType="0" labelFootnoteOrientation="1.000000" labelStyleFormat="0" rrUSCalories="0" rrUSCaloriesFat="0" rrUSCarbs="0" rrUSCholesterol="0" rrUSProtein="0" rrUSSugars="0" rrUSVitMin="0" showStandardFootnote="true" useAbbrev="false"><languageOption languageEnum="1" servingSizeText="" servingsContainerText=""/></labelOption><labelPageLayout labelPageObjectHeight="0" labelPageObjectLeft="0.500000" labelPageObjectTop="0.500000" labelPageObjectType="2" labelPageObjectWidth="1.990000"/><labelPageLayout labelPageObjectHeight="0" labelPageObjectLeft="4.000000" labelPageObjectTop="2.000000" labelPageObjectType="3" labelPageObjectWidth="0.860000"/><labelPageLayout labelPageObjectHeight="0" labelPageObjectLeft="4.000000" labelPageObjectTop="2.000000" labelPageObjectType="4" labelPageObjectWidth="0.960000"/><GroupData><Group groupName="AFRS__"/></GroupData><Yield cookedYield="100" percentRefuse="0" yieldKey="1"><measure gramWeight="-1.000000" measureKey="31" quantity="100.000000"/></Yield><RecipeItem ItemName="Pork Egg Roll-Ckd" itemDataType="1" itemDisplayOrder="0" itemEshaCode="14971" itemKey="14971" itemMeasureKey="5" itemQuantity="100.000000" itemQuantityText="" itemYieldKey="1"/><memo><![CDATA[YIELD:  100 Portions (2 Pans)
+EACH PORTION:  1 Egg Roll (3 Ounces)
+PAN SIZE:  18x26-inch Sheet Pan
+TEMPERATURE:  400° F. Oven
+
+METHOD:
+1.  Place 50 frozen egg rolls on each pan.
+2.  Bake 25 to 30 minutes or until browned.
+
+NOTE:
+1.  In Step 2, if convection oven is used, bake at 350° F., 20 to 25 minutes, on high fan, closed vent.
+2.  Chinese and Philippine style egg rolls may be served with Sweet Sour Sauce (Recipe No. 0-8) and Chinese Mustand Sauce (Recipe No. 0-22).
+3.  Other sizes and types of pans may be used.  See Recipe No. A-25.
+
+VARIATIONS:
+1.  FRIED CHINESE EGG ROLLS:  Omit Steps 1 and 2.  Fry frozen Chinese egg rolls in 350° F., deep fat 7 minutes or until golden brown and heated through.  DO NO OVERCOOK.  (Note: egg rolls will rise to the surface when cooked.)  Drain well in basket or on absorbent paper.
+2.  PHILIPPINE STYLE EGG ROLLS:  In Step 1, use 12 lb
+8 oz (100) frozen Philippine style egg rolls.  In Step 2, bake 20 to 25 minutes or until golden brown and heated through or in 350° F. convection oven 10 to 15 minutes on high fan, closed vent.  EACH PORTION: 1 Egg Roll (2 Ounces).
+3.  FRIED PHILIPPINE STYLE EGG ROLLS:  Omit Steps 1 and 2.  Fry 12 lb 8 oz (100) frozen Philippine egg rolls in 350° F. deep fat 4 to 5 minutes or until golden brown and heated through.  DO NOT OVERCOOK.  EACH PORTION: 1 Egg Roll (2 Ounces).]]></memo></recipe><recipe createDate="03/24/1999" description="Drink, fruit punch" modifyDate="03/05/2003" nutrientRefNum="435523551" primaryKey="435523551" recordType="insert" useStaticIngrStmt="false" userCode="" version="2.2.0"><labelOption buildInsigFootnote="true" calcDVRaw="true" hide449Footnote="false" hideGramWeight="false" hideInsigFootnote="false" hideServings="false" labelDVStandard="1" labelElementType="0" labelFootnoteOrientation="1.000000" labelStyleFormat="0" rrUSCalories="0" rrUSCaloriesFat="0" rrUSCarbs="0" rrUSCholesterol="0" rrUSProtein="0" rrUSSugars="0" rrUSVitMin="0" showStandardFootnote="true" useAbbrev="false"><languageOption languageEnum="1" servingSizeText="" servingsContainerText=""/></labelOption><labelPageLayout labelPageObjectHeight="0" labelPageObjectLeft="0.500000" labelPageObjectTop="0.500000" labelPageObjectType="2" labelPageObjectWidth="1.930000"/><labelPageLayout labelPageObjectHeight="0" labelPageObjectLeft="4.000000" labelPageObjectTop="2.000000" labelPageObjectType="3" labelPageObjectWidth="0.860000"/><labelPageLayout labelPageObjectHeight="0" labelPageObjectLeft="4.000000" labelPageObjectTop="2.000000" labelPageObjectType="4" labelPageObjectWidth="0.790000"/><GroupData><Group groupName="AFRS__"/></GroupData><Yield cookedYield="100" percentRefuse="0" yieldKey="1"><measure gramWeight="-1.000000" measureKey="31" quantity="100.000000"/></Yield><RecipeItem ItemName="White Granulated Sugar-Cup" itemDataType="1" itemDisplayOrder="0" itemEshaCode="25006" itemKey="25006" itemMeasureKey="3" itemQuantity="9.670000" itemQuantityText="" itemYieldKey="1"/><RecipeItem ItemName="Water" itemDataType="1" itemDisplayOrder="1" itemEshaCode="20041" itemKey="20041" itemMeasureKey="13" itemQuantity="1.500000" itemQuantityText="" itemYieldKey="1"/><RecipeItem ItemName="Grapefruit Juice-Frozen Conc,Unsweetened" itemDataType="1" itemDisplayOrder="2" itemEshaCode="3219" itemKey="3219" itemMeasureKey="15" itemQuantity="1.500000" itemQuantityText="" itemYieldKey="1"/><RecipeItem ItemName="Lemon Juice-Bottled/Canned-Cup" itemDataType="1" itemDisplayOrder="3" itemEshaCode="3069" itemKey="3069" itemMeasureKey="15" itemQuantity="2.000000" itemQuantityText="" itemYieldKey="1"/><RecipeItem ItemName="Pineapple Juice-Canned-Unsweetened" itemDataType="1" itemDisplayOrder="4" itemEshaCode="3120" itemKey="3120" itemMeasureKey="15" itemQuantity="3.000000" itemQuantityText="" itemYieldKey="1"/><RecipeItem ItemName="Water" itemDataType="1" itemDisplayOrder="5" itemEshaCode="20041" itemKey="20041" itemMeasureKey="13" itemQuantity="3.500000" itemQuantityText="" itemYieldKey="1"/><RecipeItem ItemName="Water-Ice Cubes-(1 Cube=3/4 fl oz)-Each" itemDataType="1" itemDisplayOrder="6" itemEshaCode="20441" itemKey="20441" itemMeasureKey="7" itemQuantity="12.000000" itemQuantityText="" itemYieldKey="1"/><memo><![CDATA[YIELD :  100 Portions (8 Gallons with ice)
+EACH PORTION:  10 Ounces
+
+METHOD:
+
+STEP 1:
+Dissolve sugar in hot water.  Cool.
+STEP 2:
+Add juice and cold water to sugar solution.  Mix thoroughly.  Cover and refrigerate.
+STEP 3:
+Add ice just before serving.
+
+NOTE:  
+1.  In Step 2,  1½, 15½ oz cn canned instant grapefruit juice may be used.  Add an additional 1½ qt water.
+2.  In Step 2,  1½ gal (4-No 3 cyl cn) canned grapefruit juice may be used.  Reduce water to 2-3/4 gal.
+3.  In Step 2,  2 cups (1/2 - 30oz cn) frozen lemon juice concentrate may be used. Increase water to 4 gal.
+
+VARIATIONS:  
+LIME LEMON PUNCH:  In Step 1,  use 7 lb (1 gal) granulated sugar.  In Step 2,  omit grapefruit and pineapple juices.  Use 3-1/4, 30 oz cn canned frozen, single strength lime juice and 4-3/4 gal water.  Add 1 tbsp green food coloring.  Follow Step 3.]]></memo></recipe><recipe createDate="03/24/1999" description="Drink, orange &amp; pineapple, cocktail" modifyDate="03/28/2003" nutrientRefNum="928030750" primaryKey="928030750" recordType="insert" useStaticIngrStmt="false" userCode="" version="2.2.0"><labelOption buildInsigFootnote="true" calcDVRaw="true" hide449Footnote="false" hideGramWeight="false" hideInsigFootnote="false" hideServings="false" labelDVStandard="1" labelElementType="0" labelFootnoteOrientation="1.000000" labelStyleFormat="0" rrUSCalories="0" rrUSCaloriesFat="0" rrUSCarbs="0" rrUSCholesterol="0" rrUSProtein="0" rrUSSugars="0" rrUSVitMin="0" showStandardFootnote="true" useAbbrev="false"><languageOption languageEnum="1" servingSizeText="" servingsContainerText=""/></labelOption><labelPageLayout labelPageObjectHeight="0" labelPageObjectLeft="0.500000" labelPageObjectTop="0.500000" labelPageObjectType="2" labelPageObjectWidth="1.900000"/><labelPageLayout labelPageObjectHeight="0" labelPageObjectLeft="4.000000" labelPageObjectTop="2.000000" labelPageObjectType="3" labelPageObjectWidth="0.860000"/><labelPageLayout labelPageObjectHeight="0" labelPageObjectLeft="4.000000" labelPageObjectTop="2.000000" labelPageObjectType="4" labelPageObjectWidth="0.800000"/><GroupData><Group groupName="AFRS__"/></GroupData><Yield cookedYield="100" percentRefuse="0" yieldKey="1"><measure gramWeight="-1.000000" measureKey="31" quantity="100.000000"/></Yield><RecipeItem ItemName="Orange Juice-Unsweet-Fzn Conc-6 FlOz Can" itemDataType="1" itemDisplayOrder="0" itemEshaCode="3094" itemKey="3094" itemMeasureKey="15" itemQuantity="1.670000" itemQuantityText="" itemYieldKey="1"/><RecipeItem ItemName="Pineapple Juice-Canned-Unsweetened" itemDataType="1" itemDisplayOrder="1" itemEshaCode="3120" itemKey="3120" itemMeasureKey="15" itemQuantity="6.500000" itemQuantityText="" itemYieldKey="1"/><RecipeItem ItemName="Water" itemDataType="1" itemDisplayOrder="2" itemEshaCode="20041" itemKey="20041" itemMeasureKey="13" itemQuantity="1.250000" itemQuantityText="" itemYieldKey="1"/><RecipeItem ItemName="Water-Ice Cubes-(1 Cube=3/4 fl oz)-Each" itemDataType="1" itemDisplayOrder="3" itemEshaCode="20441" itemKey="20441" itemMeasureKey="7" itemQuantity="4.000000" itemQuantityText="" itemYieldKey="1"/><memo><![CDATA[YIELD:  100 Portions (3¼ Gallons)
+EACH PORTION:  4 Ounces
+
+METHOD:
+
+STEP 1:
+Combine orange and pineapple juices with cold water; stir.
+STEP 2:
+Cover and refrigerate.
+STEP 3:
+Add ice just before serving.
+
+NOTE:  
+1.  In Step 1,  5-No. 3 cyl cn canned orange juice may be used; omit water.
+2.  In Step 1,  1-2/3, 15-1/2 oz cn canned, instant orange juice may be used.  Increase water to 1-1/2 gal.
+
+VARIATION:  
+GRAPEFRUIT AND PINEAPPLE JUICE COCKTAIL:  In Step 1,  omit orange juice; use 1-2/3 qt (1-2/3, 32 oz cn) canned, concentrated, frozen grapefruit juice or 4-1/2 No 3 cyl cn canned grapefruit juice (omit water), or 1-2/3, 15-1/2 oz cn canned, instant grapefruit juice and 1-1/2 gal water.  Follow Steps 2 and 3.]]></memo></recipe><recipe createDate="03/24/1999" description="Lemonade" modifyDate="02/23/2000" nutrientRefNum="183468120" primaryKey="183468120" recordType="insert" useStaticIngrStmt="false" userCode="" version="2.2.0"><labelOption buildInsigFootnote="true" calcDVRaw="true" hide449Footnote="false" hideGramWeight="false" hideInsigFootnote="false" hideServings="false" labelDVStandard="1" labelElementType="0" labelFootnoteOrientation="1.000000" labelStyleFormat="0" rrUSCalories="0" rrUSCaloriesFat="0" rrUSCarbs="0" rrUSCholesterol="0" rrUSProtein="0" rrUSSugars="0" rrUSVitMin="0" showStandardFootnote="true" useAbbrev="false"><languageOption languageEnum="1" servingSizeText="" servingsContainerText=""/></labelOption><labelPageLayout labelPageObjectHeight="0" labelPageObjectLeft="0.500000" labelPageObjectTop="0.500000" labelPageObjectType="2" labelPageObjectWidth="1.900000"/><labelPageLayout labelPageObjectHeight="0" labelPageObjectLeft="4.000000" labelPageObjectTop="2.000000" labelPageObjectType="3" labelPageObjectWidth="0.860000"/><labelPageLayout labelPageObjectHeight="0" labelPageObjectLeft="4.000000" labelPageObjectTop="2.000000" labelPageObjectType="4" labelPageObjectWidth="0.710000"/><GroupData><Group groupName="AFRS__"/></GroupData><Yield cookedYield="100" percentRefuse="0" yieldKey="1"><measure gramWeight="-1.000000" measureKey="31" quantity="100.000000"/></Yield><RecipeItem ItemName="White Granulated Sugar-Cup" itemDataType="1" itemDisplayOrder="0" itemEshaCode="0" itemKey="25006" itemMeasureKey="13" itemQuantity="1.000000" itemQuantityText="" itemYieldKey="1"/><RecipeItem ItemName="Water" itemDataType="1" itemDisplayOrder="1" itemEshaCode="0" itemKey="20041" itemMeasureKey="13" itemQuantity="1.500000" itemQuantityText="" itemYieldKey="1"/><RecipeItem ItemName="Lemon Juice-Bottled/Canned-Cup" itemDataType="1" itemDisplayOrder="2" itemEshaCode="0" itemKey="3069" itemMeasureKey="13" itemQuantity="1.000000" itemQuantityText="" itemYieldKey="1"/><RecipeItem ItemName="Water" itemDataType="1" itemDisplayOrder="3" itemEshaCode="0" itemKey="20041" itemMeasureKey="13" itemQuantity="3.750000" itemQuantityText="" itemYieldKey="1"/><RecipeItem ItemName="Water-Ice Cubes-(1 Cube=3/4 fl oz)-Each" itemDataType="1" itemDisplayOrder="4" itemEshaCode="0" itemKey="20441" itemMeasureKey="7" itemQuantity="12.000000" itemQuantityText="" itemYieldKey="1"/><memo><![CDATA[YIELD:  100 Portions (8 Gallons with ice)
+EACH PORTION:  10 Ounces
+
+METHOD:
+
+STEP 1:
+Dissolve sugar in hot water.  Cool.
+STEP 2:
+Add juice and cold water to sugar solution.  Mix thoroughly.  Cover and refrigerate.
+STEP 3:
+Add ice just before serving.
+
+NOTE:  
+In Step 2,  1 quart (1-30oz cn) frozen lemon juice concentrate may be used.  Use 4½ gal cold water.
+
+VARIATION:  
+LIMEADE:  Follow Step1.  In Step 2,  use 3-3/4 qt (four 30 oz cans) canned frozen, single strength lime juice.  Follow Step 3.]]></memo></recipe><recipe createDate="03/24/1999" description="Tea, iced, f/instant" modifyDate="03/10/2003" nutrientRefNum="353489808" primaryKey="353489808" recordType="insert" useStaticIngrStmt="false" userCode="" version="2.2.0"><labelOption buildInsigFootnote="true" calcDVRaw="true" hide449Footnote="false" hideGramWeight="false" hideInsigFootnote="false" hideServings="false" labelDVStandard="1" labelElementType="0" labelFootnoteOrientation="1.000000" labelStyleFormat="0" rrUSCalories="0" rrUSCaloriesFat="0" rrUSCarbs="0" rrUSCholesterol="0" rrUSProtein="0" rrUSSugars="0" rrUSVitMin="0" showStandardFootnote="true" useAbbrev="false"><languageOption languageEnum="1" servingSizeText="" servingsContainerText=""/></labelOption><labelPageLayout labelPageObjectHeight="0" labelPageObjectLeft="0.500000" labelPageObjectTop="0.500000" labelPageObjectType="2" labelPageObjectWidth="1.900000"/><labelPageLayout labelPageObjectHeight="0" labelPageObjectLeft="4.000000" labelPageObjectTop="2.000000" labelPageObjectType="3" labelPageObjectWidth="0.860000"/><labelPageLayout labelPageObjectHeight="0" labelPageObjectLeft="4.000000" labelPageObjectTop="2.000000" labelPageObjectType="4" labelPageObjectWidth="1.050000"/><GroupData><Group groupName="AFRS__"/></GroupData><Yield cookedYield="100" percentRefuse="0" yieldKey="1"><measure gramWeight="-1.000000" measureKey="31" quantity="100.000000"/></Yield><RecipeItem ItemName="Instant Tea-Powder-Unsweetened" itemDataType="1" itemDisplayOrder="0" itemEshaCode="20015" itemKey="20015" itemMeasureKey="6" itemQuantity="8.750000" itemQuantityText="" itemYieldKey="1"/><RecipeItem ItemName="Water" itemDataType="1" itemDisplayOrder="1" itemEshaCode="20041" itemKey="20041" itemMeasureKey="13" itemQuantity="8.000000" itemQuantityText="" itemYieldKey="1"/><RecipeItem ItemName="Water-Ice Cubes-(1 Cube=3/4 fl oz)-Each" itemDataType="1" itemDisplayOrder="2" itemEshaCode="20441" itemKey="20441" itemMeasureKey="7" itemQuantity="12.000000" itemQuantityText="" itemYieldKey="1"/><memo><![CDATA[YIELD:  8 Gallons
+EACH PORTION:  See Note 2
+
+METHOD:
+
+STEP 1:
+Add tea to water; stir until dissolved.
+STEP 2:
+Serve over crushed or cubed ice.
+
+NOTE:  
+1.  YIELD: 8 gal strong tea.
+2.  For each 8 oz glass, use about 5 oz strong tea.  Fill glass with crushed ice.  Serve two 8 oz glasses per portion.
+
+VARIATIONS:
+1.  ICED TEA (INSTANT, FOR DISPENSER)  Omit Step 1.  Place 6-3/4 oz jr. Tea Mix, Instant, on dispenser.  Follow manufacturer's directions for preparation, dispensing of tea and cleaning.  YIELD: 9 gal strong tea.  Follow Step 2.
+2.  ICED TEA (INSTANT WITH LEMON AND SUGAR, FOR DISPENSER):  Omit Step 1.  Place 24 oz jr Tea Mix, Instant, with Lemon and Sugar, on dispenser.  Follow manufacturer's directions for perparation and dispensing.  YIELD: 1-1/2 gal strong tea.  For 100 portions (8 gal) strong tea, use 5-1/3 24 oz jr instant tea.  Follow Step 2.]]></memo></recipe><recipe createDate="03/24/1999" description="Drink, orangeade" modifyDate="03/28/2003" nutrientRefNum="555108114" primaryKey="555108114" recordType="insert" useStaticIngrStmt="false" userCode="" version="2.2.0"><labelOption buildInsigFootnote="true" calcDVRaw="true" hide449Footnote="false" hideGramWeight="false" hideInsigFootnote="false" hideServings="false" labelDVStandard="1" labelElementType="0" labelFootnoteOrientation="1.000000" labelStyleFormat="0" rrUSCalories="0" rrUSCaloriesFat="0" rrUSCarbs="0" rrUSCholesterol="0" rrUSProtein="0" rrUSSugars="0" rrUSVitMin="0" showStandardFootnote="true" useAbbrev="false"><languageOption languageEnum="1" servingSizeText="" servingsContainerText=""/></labelOption><labelPageLayout labelPageObjectHeight="0" labelPageObjectLeft="0.500000" labelPageObjectTop="0.500000" labelPageObjectType="2" labelPageObjectWidth="1.900000"/><labelPageLayout labelPageObjectHeight="0" labelPageObjectLeft="4.000000" labelPageObjectTop="2.000000" labelPageObjectType="3" labelPageObjectWidth="0.860000"/><labelPageLayout labelPageObjectHeight="0" labelPageObjectLeft="4.000000" labelPageObjectTop="2.000000" labelPageObjectType="4" labelPageObjectWidth="0.720000"/><GroupData><Group groupName="AFRS__"/></GroupData><Yield cookedYield="100" percentRefuse="0" yieldKey="1"><measure gramWeight="-1.000000" measureKey="31" quantity="100.000000"/></Yield><RecipeItem ItemName="White Granulated Sugar-Cup" itemDataType="1" itemDisplayOrder="0" itemEshaCode="25006" itemKey="25006" itemMeasureKey="15" itemQuantity="2.250000" itemQuantityText="" itemYieldKey="1"/><RecipeItem ItemName="Water" itemDataType="1" itemDisplayOrder="1" itemEshaCode="20041" itemKey="20041" itemMeasureKey="13" itemQuantity="1.500000" itemQuantityText="" itemYieldKey="1"/><RecipeItem ItemName="Orange Juice-Unsweet-Fzn Conc-6 FlOz Can" itemDataType="1" itemDisplayOrder="2" itemEshaCode="3094" itemKey="3094" itemMeasureKey="13" itemQuantity="1.000000" itemQuantityText="" itemYieldKey="1"/><RecipeItem ItemName="Water" itemDataType="1" itemDisplayOrder="3" itemEshaCode="20041" itemKey="20041" itemMeasureKey="13" itemQuantity="3.500000" itemQuantityText="" itemYieldKey="1"/><RecipeItem ItemName="Water-Ice Cubes-(1 Cube=3/4 fl oz)-Each" itemDataType="1" itemDisplayOrder="4" itemEshaCode="20441" itemKey="20441" itemMeasureKey="7" itemQuantity="12.000000" itemQuantityText="" itemYieldKey="1"/><memo><![CDATA[YIELD:  100 Portions (8 Gallons with ice)
+EACH PORTION:  10 Ounces
+
+METHOD:
+
+STEP 1:
+Dissolve sugar in hot water.  Cool.
+STEP 2:
+Add juice and cold water to sugar solution.  Mix thoroughly.  Cover and refrigerate.
+STEP 3:
+Add ice just before serving.
+
+NOTE:  
+1.  In Step 2,  11-No. 3 cyl cn canned orange juice may be used for frozen concentrated orange juice and water.  Use 5 lb (2-3/4 qt) granulated sugar and 2 gal hot water in Step 1.
+2.  In Step 2,  4 15½ oz cn canned instant orange juice may be used.  Use 5 lb (2-3/4 qt) granulated sugar and 2 gal hot water in Step 1.]]></memo></recipe><recipe createDate="03/25/1999" description="Brownies, apple cake" modifyDate="03/19/2003" nutrientRefNum="24496706" primaryKey="24496706" recordType="insert" useStaticIngrStmt="false" userCode="" version="2.2.0"><labelOption buildInsigFootnote="true" calcDVRaw="true" hide449Footnote="false" hideGramWeight="false" hideInsigFootnote="false" hideServings="false" labelDVStandard="1" labelElementType="0" labelFootnoteOrientation="1.000000" labelStyleFormat="0" rrUSCalories="0" rrUSCaloriesFat="0" rrUSCarbs="0" rrUSCholesterol="0" rrUSProtein="0" rrUSSugars="0" rrUSVitMin="0" showStandardFootnote="true" useAbbrev="false"><languageOption languageEnum="1" servingSizeText="" servingsContainerText=""/></labelOption><labelPageLayout labelPageObjectHeight="0" labelPageObjectLeft="0.500000" labelPageObjectTop="0.500000" labelPageObjectType="2" labelPageObjectWidth="1.990000"/><labelPageLayout labelPageObjectHeight="0" labelPageObjectLeft="4.000000" labelPageObjectTop="2.000000" labelPageObjectType="3" labelPageObjectWidth="0.860000"/><labelPageLayout labelPageObjectHeight="0" labelPageObjectLeft="4.000000" labelPageObjectTop="2.000000" labelPageObjectType="4" labelPageObjectWidth="0.960000"/><GroupData><Group groupName="AFRS__"/></GroupData><Yield cookedYield="100" percentRefuse="0" yieldKey="1"><measure gramWeight="-1.000000" measureKey="31" quantity="100.000000"/></Yield><RecipeItem ItemName="AllPurpose White Flour-Enr-Sifted-BkdVal" itemDataType="1" itemDisplayOrder="0" itemEshaCode="38038" itemKey="38038" itemMeasureKey="15" itemQuantity="2.500000" itemQuantityText="" itemYieldKey="1"/><RecipeItem ItemName="Table Salt" itemDataType="1" itemDisplayOrder="1" itemEshaCode="26014" itemKey="26014" itemMeasureKey="2" itemQuantity="2.000000" itemQuantityText="" itemYieldKey="1"/><RecipeItem ItemName="Calumet Baking Powder  KFT" itemDataType="1" itemDisplayOrder="2" itemEshaCode="28072" itemKey="28072" itemMeasureKey="2" itemQuantity="2.330000" itemQuantityText="" itemYieldKey="1"/><RecipeItem ItemName="Baking Soda" itemDataType="1" itemDisplayOrder="3" itemEshaCode="28003" itemKey="28003" itemMeasureKey="2" itemQuantity="1.670000" itemQuantityText="" itemYieldKey="1"/><RecipeItem ItemName="Cinnamon-ground" itemDataType="1" itemDisplayOrder="4" itemEshaCode="26003" itemKey="26003" itemMeasureKey="2" itemQuantity="2.000000" itemQuantityText="" itemYieldKey="1"/><RecipeItem ItemName="Multipurpose Shortening-Hy Soy + Hy Palm" itemDataType="1" itemDisplayOrder="5" itemEshaCode="8283" itemKey="8283" itemMeasureKey="3" itemQuantity="3.500000" itemQuantityText="" itemYieldKey="1"/><RecipeItem ItemName="White Granulated Sugar-Cup" itemDataType="1" itemDisplayOrder="6" itemEshaCode="25006" itemKey="25006" itemMeasureKey="3" itemQuantity="9.670000" itemQuantityText="" itemYieldKey="1"/><RecipeItem ItemName="Whole Fresh Egg-Raw-Cup Measure" itemDataType="1" itemDisplayOrder="7" itemEshaCode="19500" itemKey="19500" itemMeasureKey="3" itemQuantity="2.250000" itemQuantityText="" itemYieldKey="1"/><RecipeItem ItemName="Vanilla extract" itemDataType="1" itemDisplayOrder="8" itemEshaCode="26624" itemKey="26624" itemMeasureKey="3" itemQuantity="0.250000" itemQuantityText="" itemYieldKey="1"/><RecipeItem ItemName="Apple-Slices-Canned-Sweetened-Drnd-Cup" itemDataType="1" itemDisplayOrder="9" itemEshaCode="3148" itemKey="3148" itemMeasureKey="7" itemQuantity="6.750000" itemQuantityText="" itemYieldKey="1"/><RecipeItem ItemName="Dried Black Walnuts-Chopped" itemDataType="1" itemDisplayOrder="10" itemEshaCode="4525" itemKey="4525" itemMeasureKey="7" itemQuantity="1.000000" itemQuantityText="" itemYieldKey="1"/><RecipeItem ItemName="Seedless Raisins-Cup-Packed" itemDataType="1" itemDisplayOrder="11" itemEshaCode="3129" itemKey="3129" itemMeasureKey="3" itemQuantity="1.500000" itemQuantityText="" itemYieldKey="1"/><memo><![CDATA[YIELD:  100 Portions (2 Pans)
+EACH PORTION:  1 Brownie
+PAN SIZE:  18x26-inch Sheet Pan
+TEMPERATURE:  350° F. Oven
+
+METHOD:
+
+STEP 1:
+Sift together flour, salt, baking powder, baking soda, and cinnamon.  Set aside for use in Step 4.
+STEP 2:
+Cream shortening and sugar in mixer bowl 4 minutes at medium speed.
+STEP 3:
+Add 2¼ cups (11) slightly beaten eggs and vanilla to creamed mixture; beat 2 minutes at medium speed.  Scrape down bowl.
+STEP 4:
+Add dry ingredients to creamed mixture while beating at low speed.
+STEP 5:
+Add apples, unsalted, chopped nuts, and raisins to mixture.  DO NOT OVERMIX.  Mixture will be thick.
+STEP 6:
+Spread one half of mixture into each greased and floured pan.
+STEP 7:
+Bake about 40 mintues or until done.
+STEP 8:
+Cool; cut 6 by 9.
+
+NOTE:
+In Step 5, 3 lb 6 oz canned applesauce or 11 oz (½, No.2½ can) canned, instant applesauce rehydrated with 4½ cups water may be used.
+
+VARIATION:
+APPLE CAKE BROWNIES (GINGERBREAD CAKE MIX)
+Omit Steps 1 through 4.  Use 10 lb. Gingerbread Mix.  Prepare according to instructions on container.  Follow Steps 5 through 8.]]></memo></recipe><recipe createDate="03/25/1999" description="Brownies" modifyDate="02/27/2003" nutrientRefNum="787250692" primaryKey="787250692" recordType="insert" useStaticIngrStmt="false" userCode="" version="2.2.0"><labelOption buildInsigFootnote="true" calcDVRaw="true" hide449Footnote="false" hideGramWeight="false" hideInsigFootnote="false" hideServings="false" labelDVStandard="1" labelElementType="0" labelFootnoteOrientation="1.000000" labelStyleFormat="0" rrUSCalories="0" rrUSCaloriesFat="0" rrUSCarbs="0" rrUSCholesterol="0" rrUSProtein="0" rrUSSugars="0" rrUSVitMin="0" showStandardFootnote="true" useAbbrev="false"><languageOption languageEnum="1" servingSizeText="" servingsContainerText=""/></labelOption><labelPageLayout labelPageObjectHeight="0" labelPageObjectLeft="0.500000" labelPageObjectTop="0.500000" labelPageObjectType="2" labelPageObjectWidth="2.050000"/><labelPageLayout labelPageObjectHeight="0" labelPageObjectLeft="4.000000" labelPageObjectTop="2.000000" labelPageObjectType="3" labelPageObjectWidth="0.860000"/><labelPageLayout labelPageObjectHeight="0" labelPageObjectLeft="4.000000" labelPageObjectTop="2.000000" labelPageObjectType="4" labelPageObjectWidth="1.180000"/><GroupData><Group groupName="AFRS__"/></GroupData><Yield cookedYield="100" percentRefuse="0" yieldKey="1"><measure gramWeight="-1.000000" measureKey="31" quantity="100.000000"/></Yield><RecipeItem ItemName="All Purpose White Flour Enriched-Blchd" itemDataType="1" itemDisplayOrder="0" itemEshaCode="38030" itemKey="38030" itemMeasureKey="15" itemQuantity="2.750000" itemQuantityText="" itemYieldKey="1"/><RecipeItem ItemName="White Granulated Sugar-Cup" itemDataType="1" itemDisplayOrder="1" itemEshaCode="25006" itemKey="25006" itemMeasureKey="15" itemQuantity="3.000000" itemQuantityText="" itemYieldKey="1"/><RecipeItem ItemName="Unsweetened Cocoa Powder-Dry" itemDataType="1" itemDisplayOrder="2" itemEshaCode="28200" itemKey="28200" itemMeasureKey="15" itemQuantity="1.750000" itemQuantityText="" itemYieldKey="1"/><RecipeItem ItemName="Calumet Baking Powder  KFT" itemDataType="1" itemDisplayOrder="3" itemEshaCode="28072" itemKey="28072" itemMeasureKey="2" itemQuantity="2.330000" itemQuantityText="" itemYieldKey="1"/><RecipeItem ItemName="Table Salt" itemDataType="1" itemDisplayOrder="4" itemEshaCode="26014" itemKey="26014" itemMeasureKey="2" itemQuantity="1.000000" itemQuantityText="" itemYieldKey="1"/><RecipeItem ItemName="Multipurpose Shortening-Hy Soy + Hy Palm" itemDataType="1" itemDisplayOrder="5" itemEshaCode="8283" itemKey="8283" itemMeasureKey="15" itemQuantity="1.500000" itemQuantityText="" itemYieldKey="1"/><RecipeItem ItemName="Whole Fresh Egg-Raw-Cup Measure" itemDataType="1" itemDisplayOrder="6" itemEshaCode="19500" itemKey="19500" itemMeasureKey="3" itemQuantity="5.250000" itemQuantityText="" itemYieldKey="1"/><RecipeItem ItemName="Light Corn Syrup" itemDataType="1" itemDisplayOrder="7" itemEshaCode="25000" itemKey="25000" itemMeasureKey="3" itemQuantity="2.670000" itemQuantityText="" itemYieldKey="1"/><RecipeItem ItemName="Vanilla extract" itemDataType="1" itemDisplayOrder="8" itemEshaCode="26624" itemKey="26624" itemMeasureKey="2" itemQuantity="3.000000" itemQuantityText="" itemYieldKey="1"/><RecipeItem ItemName="Dried Black Walnuts-Chopped" itemDataType="1" itemDisplayOrder="9" itemEshaCode="4525" itemKey="4525" itemMeasureKey="7" itemQuantity="1.500000" itemQuantityText="" itemYieldKey="1"/><memo><![CDATA[YIELD:  100 Portions (2 Pans)
+EACH PORTION:  1 Brownie
+PAN SIZE:  18x26-inch Sheet Pan
+TEMPERATURE:  350° F. Oven
+
+METHOD:
+
+STEP 1:
+Place flour, sugar, cocoa, baking powder and salt in mixer bowl; blend well at low speed 1 minute.
+STEP 2:
+Add shortening, 5¼ cups (28) eggs, syrup, and vanilla to dry ingredients. Mix at low speed 1 minute; scrape down bowl.  Mix at medium speed 2 minutes or until thoroughly blended.
+STEP 3:
+Add unsalted, chopped nuts to batter; mix at low speed 30 seconds.
+STEP 4:
+Spread 9 lb. 4 oz. (4-3/4 qt) batter into each greased pan.
+STEP 5:
+Bake 40 to 45 minutes or until done.  DO NOT OVERBAKE.
+STEP 6:
+Cool; cut 6 by 8.
+
+NOTE:
+1.  In Step 5, brownies are done when a toothpick is inserted into center of baked brownies comes out clean.
+2.  In Step 5, if convection oven is used, bake at 325 F. 25 to 30 minutes or until done on high fan, open vent.
+
+VARIATIONS:
+1.  BROWNIES (CHOCOLATE BROWNIE MIX):  Omit Steps 1 through 6.  Use 15 lb Chocolate Brownie Mix.  Prepare according to instructions on container.
+NOTE: 1lb 8 oz (1½ qt)  unsalted, chopped nuts may be added before panning batter.
+NOTE: If microwave-convection is used, use 4 half sheet pans (13x18 inches); place 4 lb 7 oz (7½ cups) batter in each greased pan.  Bake at 350° F 20 minutes with 40% microwave power for last 9 minutes.  Cool; cut 5 by 5.
+2.  PEANUT BUTTER BROWNIES:  Follow Step 1,  reduce shortening to 1 lb (2¼ cups); add 3 lb (5¼ cups) peanut butter.  Spread 9 lb 15 oz (4¼ qt) batter into each greased pan.  Follow Steps 5 and 6.]]></memo></recipe><recipe createDate="03/25/1999" description="Brownies, butterscotch" modifyDate="02/27/2003" nutrientRefNum="5946281" primaryKey="5946281" recordType="insert" useStaticIngrStmt="false" userCode="" version="2.2.0"><labelOption buildInsigFootnote="true" calcDVRaw="true" hide449Footnote="false" hideGramWeight="false" hideInsigFootnote="false" hideServings="false" labelDVStandard="1" labelElementType="0" labelFootnoteOrientation="1.000000" labelStyleFormat="0" rrUSCalories="0" rrUSCaloriesFat="0" rrUSCarbs="0" rrUSCholesterol="0" rrUSProtein="0" rrUSSugars="0" rrUSVitMin="0" showStandardFootnote="true" useAbbrev="false"><languageOption languageEnum="1" servingSizeText="" servingsContainerText=""/></labelOption><labelPageLayout labelPageObjectHeight="0" labelPageObjectLeft="0.500000" labelPageObjectTop="0.500000" labelPageObjectType="2" labelPageObjectWidth="2.050000"/><labelPageLayout labelPageObjectHeight="0" labelPageObjectLeft="4.000000" labelPageObjectTop="2.000000" labelPageObjectType="3" labelPageObjectWidth="0.860000"/><labelPageLayout labelPageObjectHeight="0" labelPageObjectLeft="4.000000" labelPageObjectTop="2.000000" labelPageObjectType="4" labelPageObjectWidth="0.960000"/><GroupData><Group groupName="AFRS__"/></GroupData><Yield cookedYield="100" percentRefuse="0" yieldKey="1"><measure gramWeight="-1.000000" measureKey="31" quantity="100.000000"/></Yield><RecipeItem ItemName="All Purpose White Flour Enriched-Blchd" itemDataType="1" itemDisplayOrder="0" itemEshaCode="38030" itemKey="38030" itemMeasureKey="13" itemQuantity="1.250000" itemQuantityText="" itemYieldKey="1"/><RecipeItem ItemName="Calumet Baking Powder  KFT" itemDataType="1" itemDisplayOrder="1" itemEshaCode="28072" itemKey="28072" itemMeasureKey="2" itemQuantity="9.000000" itemQuantityText="" itemYieldKey="1"/><RecipeItem ItemName="Table Salt" itemDataType="1" itemDisplayOrder="2" itemEshaCode="26014" itemKey="26014" itemMeasureKey="2" itemQuantity="1.000000" itemQuantityText="" itemYieldKey="1"/><RecipeItem ItemName="Brown Sugar-Packed" itemDataType="1" itemDisplayOrder="3" itemEshaCode="25005" itemKey="25005" itemMeasureKey="3" itemQuantity="12.750000" itemQuantityText="" itemYieldKey="1"/><RecipeItem ItemName="Butter-Salted-Cup" itemDataType="1" itemDisplayOrder="4" itemEshaCode="8000" itemKey="8000" itemMeasureKey="3" itemQuantity="3.500000" itemQuantityText="" itemYieldKey="1"/><RecipeItem ItemName="Whole Fresh Egg-Raw-Cup Measure" itemDataType="1" itemDisplayOrder="5" itemEshaCode="19500" itemKey="19500" itemMeasureKey="3" itemQuantity="3.750000" itemQuantityText="" itemYieldKey="1"/><RecipeItem ItemName="Vanilla extract" itemDataType="1" itemDisplayOrder="6" itemEshaCode="26624" itemKey="26624" itemMeasureKey="3" itemQuantity="0.250000" itemQuantityText="" itemYieldKey="1"/><RecipeItem ItemName="Dried Black Walnuts-Chopped" itemDataType="1" itemDisplayOrder="7" itemEshaCode="4525" itemKey="4525" itemMeasureKey="7" itemQuantity="1.500000" itemQuantityText="" itemYieldKey="1"/><memo><![CDATA[YIELD:  100 Portions (2 Pans)
+EACH PORTION:  1 Brownie
+PAN SIZE:  18x26-inch Sheet Pan
+TEMPERATURE:  350° F. Oven
+
+METHOD:
+
+STEP 1:
+Sift together flour, baking powder and salt.  Set aside for use in Step 3.
+STEP 2:
+Place brown sugar in mixer bowl; add hot butter or margarine. Beat about 2 minutes at low speed until smooth and well blended.
+STEP 3:
+Add 3-3/4 cups (about 20) eggs and vanilla; beat at medium speed 8 minutes.  Scrape down bowl.  Add dry ingredients to mixture in mixer bowl; beat 2 minutes at low speed or until well blended.  Scrape down bowl.
+STEP 4:
+Fold nuts into batter.
+STEP 5:
+Spread 3¼ qt (about 8 lb 2 oz) batter into each greased and floured pan.
+STEP 6:
+Bake 40 to 45 minutes or until done.  DO NOT OVERBAKE.
+STEP 7:
+Cut 6 by 9 while warm.
+
+NOTE:  
+If convection oven is used, baked at 300° F, 35 to 40 minutes or until done on low fan, closed vent.]]></memo></recipe><recipe createDate="03/25/1999" description="Bar, nut, chewy" modifyDate="03/27/2003" nutrientRefNum="95157744" primaryKey="95157744" recordType="insert" useStaticIngrStmt="false" userCode="" version="2.2.0"><labelOption buildInsigFootnote="true" calcDVRaw="true" hide449Footnote="false" hideGramWeight="false" hideInsigFootnote="false" hideServings="false" labelDVStandard="1" labelElementType="0" labelFootnoteOrientation="1.000000" labelStyleFormat="0" rrUSCalories="0" rrUSCaloriesFat="0" rrUSCarbs="0" rrUSCholesterol="0" rrUSProtein="0" rrUSSugars="0" rrUSVitMin="0" showStandardFootnote="true" useAbbrev="false"><languageOption languageEnum="1" servingSizeText="" servingsContainerText=""/></labelOption><labelPageLayout labelPageObjectHeight="0" labelPageObjectLeft="0.500000" labelPageObjectTop="0.500000" labelPageObjectType="2" labelPageObjectWidth="2.050000"/><labelPageLayout labelPageObjectHeight="0" labelPageObjectLeft="4.000000" labelPageObjectTop="2.000000" labelPageObjectType="3" labelPageObjectWidth="0.860000"/><labelPageLayout labelPageObjectHeight="0" labelPageObjectLeft="4.000000" labelPageObjectTop="2.000000" labelPageObjectType="4" labelPageObjectWidth="0.960000"/><GroupData><Group groupName="AFRS__"/></GroupData><Yield cookedYield="100" percentRefuse="0" yieldKey="1"><measure gramWeight="-1.000000" measureKey="31" quantity="100.000000"/></Yield><RecipeItem ItemName="All Purpose White Flour Enriched-Blchd" itemDataType="1" itemDisplayOrder="0" itemEshaCode="38030" itemKey="38030" itemMeasureKey="15" itemQuantity="1.750000" itemQuantityText="" itemYieldKey="1"/><RecipeItem ItemName="Calumet Baking Powder  KFT" itemDataType="1" itemDisplayOrder="1" itemEshaCode="28072" itemKey="28072" itemMeasureKey="2" itemQuantity="2.330000" itemQuantityText="" itemYieldKey="1"/><RecipeItem ItemName="Table Salt" itemDataType="1" itemDisplayOrder="2" itemEshaCode="26014" itemKey="26014" itemMeasureKey="2" itemQuantity="1.670000" itemQuantityText="" itemYieldKey="1"/><RecipeItem ItemName="Whole Fresh Egg-Raw-Cup Measure" itemDataType="1" itemDisplayOrder="3" itemEshaCode="19500" itemKey="19500" itemMeasureKey="15" itemQuantity="1.500000" itemQuantityText="" itemYieldKey="1"/><RecipeItem ItemName="Brown Sugar-Packed" itemDataType="1" itemDisplayOrder="4" itemEshaCode="25005" itemKey="25005" itemMeasureKey="3" itemQuantity="10.750000" itemQuantityText="" itemYieldKey="1"/><RecipeItem ItemName="Vanilla extract" itemDataType="1" itemDisplayOrder="5" itemEshaCode="26624" itemKey="26624" itemMeasureKey="2" itemQuantity="2.000000" itemQuantityText="" itemYieldKey="1"/><RecipeItem ItemName="Dried Black Walnuts-Chopped" itemDataType="1" itemDisplayOrder="6" itemEshaCode="4525" itemKey="4525" itemMeasureKey="15" itemQuantity="3.500000" itemQuantityText="" itemYieldKey="1"/><memo><![CDATA[YIELD:  100 Portions (2 Pans)
+EACH PORTION:  2 Bars
+PAN SIZE:  18x26-inch Sheet Pan
+TEMPERATURE:  350° F. Oven
+
+METHOD:
+STEP 1:
+Sift together flour, baking powder, and salt.  Set aside for use in Step 3.
+STEP 2:
+Place brown sugar, eggs, and vanilla in mixer bowl.  Beat at low speed 1 minute, then at medium speed 2 to 3 minutes or until smooth.
+STEP 3:
+Add flour mixture; mix at low speed 1 minute or until well blended.
+STEP 4:
+Add nuts; mix 1 minute at low speed.
+STEP 5:
+Spread about 6 lb 10 oz batter into each well greased pan.
+STEP 6:
+Bake 30 minutes or until done.
+STEP 7:
+Cook; cut 6 by 18.
+
+NOTE:  
+If convection oven is used, bake at 325° F. 20 minutes on low fan, open vent.
+
+VARIATION:  
+CONGO BARS: In Step 1,  increase flour to 3 lb (3 qt).  In Step 2, reduce eggs to 2 lb (3-3/4 cups).  Add 1 lb 8 oz (3 cups) salad oil.  In Step 4, reduce nuts to 8 oz (2 cups).  Add 1 lb 8 oz (two, 12 oz pk) semisweet chocolate baking chips or chocolate flavored baking chips to mixture.  In Step 5, spread about 6 lb 11 oz batter into each well greased pan.  Follow Steps 6 through 7.
+NOTE:  If convection oven is used, bake at 325° F. 25 minutes on low fan.  Open vent.  ]]></memo></recipe><recipe createDate="03/25/1999" description="Cookies, shortbread" modifyDate="02/28/2003" nutrientRefNum="248718210" primaryKey="248718210" recordType="insert" useStaticIngrStmt="false" userCode="" version="2.2.0"><labelOption buildInsigFootnote="true" calcDVRaw="true" hide449Footnote="false" hideGramWeight="false" hideInsigFootnote="false" hideServings="false" labelDVStandard="1" labelElementType="0" labelFootnoteOrientation="1.000000" labelStyleFormat="0" rrUSCalories="0" rrUSCaloriesFat="0" rrUSCarbs="0" rrUSCholesterol="0" rrUSProtein="0" rrUSSugars="0" rrUSVitMin="0" showStandardFootnote="true" useAbbrev="false"><languageOption languageEnum="1" servingSizeText="" servingsContainerText=""/></labelOption><labelPageLayout labelPageObjectHeight="0" labelPageObjectLeft="0.500000" labelPageObjectTop="0.500000" labelPageObjectType="2" labelPageObjectWidth="2.050000"/><labelPageLayout labelPageObjectHeight="0" labelPageObjectLeft="4.000000" labelPageObjectTop="2.000000" labelPageObjectType="3" labelPageObjectWidth="0.860000"/><labelPageLayout labelPageObjectHeight="0" labelPageObjectLeft="4.000000" labelPageObjectTop="2.000000" labelPageObjectType="4" labelPageObjectWidth="0.960000"/><GroupData><Group groupName="AFRS__"/></GroupData><Yield cookedYield="100" percentRefuse="0" yieldKey="1"><measure gramWeight="-1.000000" measureKey="31" quantity="100.000000"/></Yield><RecipeItem ItemName="Butter-Salted-Cup" itemDataType="1" itemDisplayOrder="0" itemEshaCode="8000" itemKey="8000" itemMeasureKey="15" itemQuantity="2.000000" itemQuantityText="" itemYieldKey="1"/><RecipeItem ItemName="White Granulated Sugar-Cup" itemDataType="1" itemDisplayOrder="1" itemEshaCode="25006" itemKey="25006" itemMeasureKey="15" itemQuantity="1.250000" itemQuantityText="" itemYieldKey="1"/><RecipeItem ItemName="All Purpose White Flour Enriched-Blchd" itemDataType="1" itemDisplayOrder="2" itemEshaCode="38030" itemKey="38030" itemMeasureKey="15" itemQuantity="5.500000" itemQuantityText="" itemYieldKey="1"/><memo><![CDATA[YIELD:  100 Portions (6 Pans)
+EACH PORTION:  2 Cookies
+PAN SIZE:  18x26-inch Sheet Pan
+TEMPERATURE:  350° F. Oven
+
+METHOD:
+
+STEP 1:
+Place butter in mixer bowl; beat at medium speed until creamy.
+STEP 2:
+Gradually add sugar; continue beating until light and fluffy, about 5 minutes.
+STEP 3:
+Add flour; mix until blended.
+STEP 4:
+Divide dough into 10 pieces, about 1 lb 2 oz. each.  Form into rolls; chill; slice each roll into 20 pieces.
+STEP 5:
+Place in rows, 5 by 7, on ungreased pans.
+STEP 6:
+Bake about 18 minutes or until cookies are firm but not browned.
+
+NOTE:  
+Butter should be used for characteristic flavor.]]></memo></recipe><recipe createDate="03/25/1999" description="Bar, toffee, crisp" modifyDate="03/27/2003" nutrientRefNum="101309247" primaryKey="101309247" recordType="insert" useStaticIngrStmt="false" userCode="" version="2.2.0"><labelOption buildInsigFootnote="true" calcDVRaw="true" hide449Footnote="false" hideGramWeight="false" hideInsigFootnote="false" hideServings="false" labelDVStandard="1" labelElementType="0" labelFootnoteOrientation="1.000000" labelStyleFormat="0" rrUSCalories="0" rrUSCaloriesFat="0" rrUSCarbs="0" rrUSCholesterol="0" rrUSProtein="0" rrUSSugars="0" rrUSVitMin="0" showStandardFootnote="true" useAbbrev="false"><languageOption languageEnum="1" servingSizeText="" servingsContainerText=""/></labelOption><labelPageLayout labelPageObjectHeight="0" labelPageObjectLeft="0.500000" labelPageObjectTop="0.500000" labelPageObjectType="2" labelPageObjectWidth="2.050000"/><labelPageLayout labelPageObjectHeight="0" labelPageObjectLeft="4.000000" labelPageObjectTop="2.000000" labelPageObjectType="3" labelPageObjectWidth="0.860000"/><labelPageLayout labelPageObjectHeight="0" labelPageObjectLeft="4.000000" labelPageObjectTop="2.000000" labelPageObjectType="4" labelPageObjectWidth="0.960000"/><GroupData><Group groupName="AFRS__"/></GroupData><Yield cookedYield="100" percentRefuse="0" yieldKey="1"><measure gramWeight="-1.000000" measureKey="31" quantity="100.000000"/></Yield><RecipeItem ItemName="Butter-Salted-Cup" itemDataType="1" itemDisplayOrder="0" itemEshaCode="8000" itemKey="8000" itemMeasureKey="15" itemQuantity="1.250000" itemQuantityText="" itemYieldKey="1"/><RecipeItem ItemName="Brown Sugar-Packed" itemDataType="1" itemDisplayOrder="1" itemEshaCode="25005" itemKey="25005" itemMeasureKey="3" itemQuantity="3.330000" itemQuantityText="" itemYieldKey="1"/><RecipeItem ItemName="Vanilla extract" itemDataType="1" itemDisplayOrder="2" itemEshaCode="26624" itemKey="26624" itemMeasureKey="2" itemQuantity="2.000000" itemQuantityText="" itemYieldKey="1"/><RecipeItem ItemName="All Purpose White Flour Enriched-Blchd" itemDataType="1" itemDisplayOrder="3" itemEshaCode="38030" itemKey="38030" itemMeasureKey="15" itemQuantity="3.000000" itemQuantityText="" itemYieldKey="1"/><RecipeItem ItemName="Semisweet Chocolate Chips" itemDataType="1" itemDisplayOrder="4" itemEshaCode="23012" itemKey="23012" itemMeasureKey="15" itemQuantity="1.000000" itemQuantityText="" itemYieldKey="1"/><RecipeItem ItemName="Dried Black Walnuts-Chopped" itemDataType="1" itemDisplayOrder="5" itemEshaCode="4525" itemKey="4525" itemMeasureKey="7" itemQuantity="1.000000" itemQuantityText="" itemYieldKey="1"/><memo><![CDATA[YIELD:  100 Portions (2 Pans)
+EACH PORTION:  2 Bars
+PAN SIZE:  18x26-inch Sheet Pan
+TEMPERATURE:  350° F. Oven
+
+METHOD:
+
+STEP 1:
+Place butter or margarine in mixer bowl; cream at medium speed 5 minutes.  Add brown sugar and vanilla; continue to beat 5 minutes or until light and fluffy.
+STEP 2:
+Add flour to mixture.  Mix 1 minute at low speed or until thoroughly blended.  Mixture will be stiff.
+STEP 3:
+Fold chips and nuts into mixture.
+STEP 4:
+Spread 5 lb 8 oz mixture into each ungreased pan; press mixture evenly into pan.
+STEP 5:
+Bake 25 minutes or until lightly browned.
+STEP 6:
+Cut 6 by 18 while still warm.  When cool, remove from pans.
+
+NOTE:  
+1 lb 8 oz (two, 12 oz pk) chocolate flavored baking chips may be used for chocolate, cooking, semisweet chips.]]></memo></recipe><recipe createDate="03/25/1999" description="Cookies, oatmeal" modifyDate="02/28/2003" nutrientRefNum="18239221" primaryKey="18239221" recordType="insert" useStaticIngrStmt="false" userCode="" version="2.2.0"><labelOption buildInsigFootnote="true" calcDVRaw="true" hide449Footnote="false" hideGramWeight="false" hideInsigFootnote="false" hideServings="false" labelDVStandard="1" labelElementType="0" labelFootnoteOrientation="1.000000" labelStyleFormat="0" rrUSCalories="0" rrUSCaloriesFat="0" rrUSCarbs="0" rrUSCholesterol="0" rrUSProtein="0" rrUSSugars="0" rrUSVitMin="0" showStandardFootnote="true" useAbbrev="false"><languageOption languageEnum="1" servingSizeText="" servingsContainerText=""/></labelOption><labelPageLayout labelPageObjectHeight="0" labelPageObjectLeft="0.500000" labelPageObjectTop="0.500000" labelPageObjectType="2" labelPageObjectWidth="1.990000"/><labelPageLayout labelPageObjectHeight="0" labelPageObjectLeft="4.000000" labelPageObjectTop="2.000000" labelPageObjectType="3" labelPageObjectWidth="0.860000"/><labelPageLayout labelPageObjectHeight="0" labelPageObjectLeft="4.000000" labelPageObjectTop="2.000000" labelPageObjectType="4" labelPageObjectWidth="0.960000"/><GroupData><Group groupName="AFRS__"/></GroupData><Yield cookedYield="100" percentRefuse="0" yieldKey="1"><measure gramWeight="-1.000000" measureKey="31" quantity="100.000000"/></Yield><RecipeItem ItemName="All Purpose White Flour Enriched-Blchd" itemDataType="1" itemDisplayOrder="0" itemEshaCode="38030" itemKey="38030" itemMeasureKey="15" itemQuantity="2.000000" itemQuantityText="" itemYieldKey="1"/><RecipeItem ItemName="Table Salt" itemDataType="1" itemDisplayOrder="1" itemEshaCode="26014" itemKey="26014" itemMeasureKey="2" itemQuantity="1.330000" itemQuantityText="" itemYieldKey="1"/><RecipeItem ItemName="Baking Soda" itemDataType="1" itemDisplayOrder="2" itemEshaCode="28003" itemKey="28003" itemMeasureKey="1" itemQuantity="2.250000" itemQuantityText="" itemYieldKey="1"/><RecipeItem ItemName="Calumet Baking Powder  KFT" itemDataType="1" itemDisplayOrder="3" itemEshaCode="28072" itemKey="28072" itemMeasureKey="2" itemQuantity="2.670000" itemQuantityText="" itemYieldKey="1"/><RecipeItem ItemName="Whole Fresh Egg-Raw-Cup Measure" itemDataType="1" itemDisplayOrder="4" itemEshaCode="19500" itemKey="19500" itemMeasureKey="3" itemQuantity="1.500000" itemQuantityText="" itemYieldKey="1"/><RecipeItem ItemName="Water" itemDataType="1" itemDisplayOrder="5" itemEshaCode="20041" itemKey="20041" itemMeasureKey="3" itemQuantity="0.500000" itemQuantityText="" itemYieldKey="1"/><RecipeItem ItemName="Vanilla extract" itemDataType="1" itemDisplayOrder="6" itemEshaCode="26624" itemKey="26624" itemMeasureKey="2" itemQuantity="2.000000" itemQuantityText="" itemYieldKey="1"/><RecipeItem ItemName="Multipurpose Shortening-Hy Soy + Hy Palm" itemDataType="1" itemDisplayOrder="7" itemEshaCode="8283" itemKey="8283" itemMeasureKey="3" itemQuantity="4.250000" itemQuantityText="" itemYieldKey="1"/><RecipeItem ItemName="White Granulated Sugar-Cup" itemDataType="1" itemDisplayOrder="8" itemEshaCode="25006" itemKey="25006" itemMeasureKey="3" itemQuantity="3.500000" itemQuantityText="" itemYieldKey="1"/><RecipeItem ItemName="Brown Sugar-Packed" itemDataType="1" itemDisplayOrder="9" itemEshaCode="25005" itemKey="25005" itemMeasureKey="3" itemQuantity="4.250000" itemQuantityText="" itemYieldKey="1"/><RecipeItem ItemName="Reg/Quick/Int Oat Cereal-Unfort-Dry" itemDataType="1" itemDisplayOrder="10" itemEshaCode="38008" itemKey="38008" itemMeasureKey="15" itemQuantity="3.750000" itemQuantityText="" itemYieldKey="1"/><RecipeItem ItemName="Seedless Raisins-Cup-Packed" itemDataType="1" itemDisplayOrder="11" itemEshaCode="3129" itemKey="3129" itemMeasureKey="15" itemQuantity="1.500000" itemQuantityText="" itemYieldKey="1"/><memo><![CDATA[YIELD:  100 Portions (6 Pans)
+EACH PORTION:  2 Cookies
+PAN SIZE:  18x26-inch Pan
+TEMPERATURE:  375° F. Oven
+
+METHOD:
+
+STEP 1:
+Sift together flour, salt, baking soda, and baking powder; set aside for use in Step 2.
+STEP 2:
+Place the 1½ cups (about 8) eggs, water, vanilla, shortening, and sugars in mixer bowl.  Beat at low speed 1 to 2 minutes or until well blended.  Add dry ingredients; mix at low speed 2 to 3 minutes or until smooth.
+STEP 3:
+Add rolled oats and raisins; mix about 1 minute.
+STEP 4:
+Drop about 1 tbsp. (1 oz) dough in rows, 5 by 7, on lightly greased pans.
+STEP 5:
+Bake 16 to 18 minutes or until lightly browned.
+STEP 6:
+Loosen cookies from pans while still warm.
+
+NOTE:  
+In Step 5,  if convection oven is used, bake at 325° F. 13 to 15 minutes or until lightly browned on high fan, open vent.
+
+VARIATIONS:  
+1.  OATMEAL CHOCOLATE CHIP COOKIES: Follow Steps 1 and 2.   In Step 3, omit raisins add 2 lb 4 oz (three, 12 oz pk) chocolate, cooking, semisweet chips or chocolate flavored baking chips.  Follow Steps 4 through 6.
+2.  OATMEAL NUT COOKIES:  Follow Steps 1 and 2.  In Step 3,  omit raisins, add 1 lb (1 qt) chopped, unsalted nuts.  Follow Steps 4 through 6.
+]]></memo></recipe><recipe createDate="03/25/1999" description="Cookies, gingerbread, f/dry cake mix" modifyDate="04/21/2008" nutrientRefNum="542496666" primaryKey="542496666" recordType="insert" useStaticIngrStmt="false" userCode="" version="2.2.0"><labelOption buildInsigFootnote="true" calcDVRaw="true" hide449Footnote="false" hideGramWeight="false" hideInsigFootnote="false" hideServings="false" labelDVStandard="1" labelElementType="0" labelFootnoteOrientation="1.000000" labelStyleFormat="0" rrUSCalories="0" rrUSCaloriesFat="0" rrUSCarbs="0" rrUSCholesterol="0" rrUSProtein="0" rrUSSugars="0" rrUSVitMin="0" showStandardFootnote="true" useAbbrev="false"><languageOption languageEnum="1" servingSizeText="" servingsContainerText=""/></labelOption><labelPageLayout labelPageObjectHeight="0" labelPageObjectLeft="0.500000" labelPageObjectTop="0.500000" labelPageObjectType="2" labelPageObjectWidth="1.990000"/><labelPageLayout labelPageObjectHeight="0" labelPageObjectLeft="4.000000" labelPageObjectTop="2.000000" labelPageObjectType="3" labelPageObjectWidth="0.860000"/><labelPageLayout labelPageObjectHeight="0" labelPageObjectLeft="4.000000" labelPageObjectTop="2.000000" labelPageObjectType="4" labelPageObjectWidth="0.960000"/><GroupData><Group groupName="AFRS__"/></GroupData><Yield cookedYield="100" percentRefuse="0" yieldKey="1"><measure gramWeight="-1.000000" measureKey="31" quantity="100.000000"/></Yield><RecipeItem ItemName="Gingerbread Cake Dry Mix-14.5oz Pkg" itemDataType="1" itemDisplayOrder="0" itemEshaCode="46067" itemKey="46067" itemMeasureKey="7" itemQuantity="5.000000" itemQuantityText="" itemYieldKey="1"/><RecipeItem ItemName="FS Basic Cookies D9992-Dry Mix KIN" itemDataType="1" itemDisplayOrder="1" itemEshaCode="47018" itemKey="47018" itemMeasureKey="7" itemQuantity="5.000000" itemQuantityText="" itemYieldKey="1"/><RecipeItem ItemName="Multipurpose Shortening w/HydrogSoy&amp;Palm" itemDataType="1" itemDisplayOrder="2" itemEshaCode="8283" itemKey="8283" itemMeasureKey="3" itemQuantity="0.500000" itemQuantityText="" itemYieldKey="1"/><RecipeItem ItemName="Municipal Tap Water" itemDataType="1" itemDisplayOrder="3" itemEshaCode="20041" itemKey="20041" itemMeasureKey="3" itemQuantity="2.670000" itemQuantityText="" itemYieldKey="1"/><memo><![CDATA[YIELD:  100 Portions (8 Pans)
+EACH PORTION:  2 Cookies
+PAN SIZE:  18x26-inch Sheet Pan
+TEMPERATURE:  400° F. Oven
+
+METHOD:
+
+STEP 1:
+Place Gingerbread Cake Mix, Sugar Cookie Mix, contents of both soda pouches, and shortening in mixer bowl.  Mix at low speed 1 minute.
+STEP 2:
+Add water gradually to mixture while beating at low speed 1 minute until sides of bowl become clean.  Scrape down bowl; mix at low speed 1 minute.
+STEP 3:
+Divide dough into 10 pieces (about 1 lb 2 oz each).  Form into rolls about 20 inches long; slice each roll into 20 pieces.
+STEP 4:

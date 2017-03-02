@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html ng-app="fsApp">
+  <head>
+    <meta charset="utf-8">
+    <title>fsApp1.1</title>
+    <!-- Angular -->
+    <script src = "angular.min.js"></script>
+    <!-- Module -->
+    <script src = "fsApp.js"></script>
+    <!-- Services -->
+    <script src = "app_components/browseService.js"></script>
+    <script src = "app_components/angular-route.min.js"></script>
+      <script>
+
+    app.component("hiComponent", {
+      template : ` 
+       <h1>Search By Ingredient Name</h1><br>
+      <form>
+        <input type="text" name="userSearch" placeholder="Ingredient" ng-model="$ctrl.ing.id">
+        <input type="submit" value="Search" ng-click="$ctrl.showIngredientByName()">
+      </form>
+      
+      <h4>{{$ctrl.ingredient.name}}</h4>
+      <ol>
+      	<li ng-repeat="cc in $ctrl.ccs | orderBy: '-count'">{{cc.ingredient1.name}}: {{cc.count}}</li>
+      </ol>
+      
+      `,
+      controller : function(browseService){
+        var vm = this;
+        
+        vm.ingredient;
+        vm.ccs = [];
+        
+        vm.showIngredientById = function(){
+          browseService.showIngredient(vm.ing.id)
+          .then(function(response){
+              vm.ingredient = response.data;
+              console.log(response.data);
+              indexCCs();
+            });
+        }
+        
+        vm.showIngredientByName = function(){
+          browseService.showIngredientByName(vm.ing.id)
+          .then(function(response){
+              vm.ingredient = response.data;
+              console.log(response.data);
+            });
+        }
+        
+        vm.indexCCs = function(){
+        	browseService.indexCCs(vm.ingredient.id)
+            .then(function(response){
+                vm.ccs = response.data;
+                console.log(response.data);
+              });
+        }
+
+      },
+      bindings : {
+    	  ing : '<'
+      }
+    });
+
+    </script>
+  </head>
+  <body>
+    <hi-component></hi-component>
+  </body>
+</html>

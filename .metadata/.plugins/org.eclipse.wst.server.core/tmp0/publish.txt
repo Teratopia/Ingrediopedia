@@ -1,0 +1,4 @@
+#Tomcat publish data
+#Sat Jan 21 14:04:07 MST 2017
+org.eclipse.jst.jee.server\:/binary\:/Users/Jolteon/.m2/repository/org/springframework/spring-web/4.3.2.RELEASE/spring-web-4.3.2.RELEASE.jar=WEB-INF/lib/spring-web-4.3.2.RELEASE.jar
+org.eclipse.jst.j2ee.server\:FlavosaurusJPA=WEB-INF/lib/FlavosaurusJPA.jar
